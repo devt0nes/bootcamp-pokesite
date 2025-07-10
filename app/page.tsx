@@ -10,7 +10,13 @@ export default function Home() {
             Welcome to
         </h1>
         <div className='flex justify-center items-center'>
-            <img src={'title.png'} className='mytitle w-[50rem]' />
+            <Image
+              src='/title.png'
+              alt='Title'
+              width={1000}
+              height={1000}
+              className='mytitle w-[50rem]'
+              />
         </div>
     </div>
     <div className='m-10'>
@@ -21,7 +27,7 @@ export default function Home() {
 
           <div className="container mx-auto w-[70%] text-center">
             <h1 className="bg-[#2e2e2e] text-white py-4 mb-8 text-2xl shadow-[0px_5px_black,0px_-5px_black,5px_0px_black,-5px_0px_black,0px_10px_#00000038,5px_5px_#00000038,-5px_5px_#00000038,inset_0px_5px_#ffffff1f,inset_0px_-5px_#00000030]">
-              <h1 className="font-pixelify-sans font-bold text-3xl text-outline"><TypewriterComponent /></h1>
+              <div className="font-pixelify-sans font-bold text-3xl text-outline"><TypewriterComponent /></div>
             </h1>
 
             <button className="text-white font-jersey-15 bg-[#6abc3a] px-10 py-4 mb-2 mr-10 text-lg border-0 shadow-[0px_5px_black,0px_-5px_black,5px_0px_black,-5px_0px_black,0px_10px_#00000038,5px_5px_#00000038,-5px_5px_#00000038,inset_0px_5px_#ffffff36] active:translate-y-[5px] active:shadow-[0px_5px_black,0px_-5px_black,5px_0px_black,-5px_0px_black,inset_0px_5px_#00000038]">
